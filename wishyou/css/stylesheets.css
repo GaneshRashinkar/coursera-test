@@ -1,0 +1,98 @@
+#bodybg{
+	color: #fff;
+	background: url("../back.gif");
+}
+#header-nav{
+	color: #fff;
+	background: #F51223;
+}
+.navbar-light .navbar-brand{
+	color: #fff;
+	font-size: 5vw;
+}
+a:hover{
+	background: #7013AF;
+}
+li a{
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 2vw;
+}
+.active{
+	background: #7013AF;
+}
+
+div #para{
+	font-size: 2vw;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#constr{
+	background: blue;
+	height: 700px;
+	width: 700px;
+	background: url("../images/const.jpg");
+}
+#balloon{
+	height:800px;
+	width: 1200px;
+	background: url("../images/balloons.gif");
+}
+#birthdaytxt{
+	
+}
+
+#textbox{
+	width: 100%;
+}
+#footerdata{
+	width: 100%;
+	margin-bottom:0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #F51223;
+}
+
+#textbox, #button{
+	
+}
+#devi{
+	height:500px;
+	width: 500px;
+	background: url("../images/devi300.png") no-repeat;
+}
+#dasraGif{
+	width: 994px;
+	height: 129px;
+	background: url("../images/dasra1.gif") no-repeat;
+}
+#uname{
+			font: 5vw bold;
+			margin: auto;
+			animation-duration: 4s;
+			animation-name: changecolor;
+			animation-iteration-count: infinite;
+
+}
+@keyframes changecolor{
+			from{
+				color: #c3f6f7;
+			}
+			
+			to{
+				color: #f5f598;
+			}
+		}
+
+@media(max-width: 750px){
+	.navbar-light .navbar-nav .nav-link{
+	font-size: 3vw;
+	}
+	#balloon{
+		height: 700px;
+		width: 90vw;
+		background: url("../images/balloons.gif");
+	}
+}
