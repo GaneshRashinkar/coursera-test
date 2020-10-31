@@ -57,6 +57,6 @@ else{
 	final_text=url;
 }
 	var wa="whatsapp://send?text=https%3A%2F%2F";
-	alert(wa+final_text);
-	/*window.open(wa+final_text);*/
+	/*alert(wa+final_text);*/
+	window.open(wa+final_text);
 }
