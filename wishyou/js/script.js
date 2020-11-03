@@ -11,7 +11,7 @@ var end1=a.indexOf(k);
 var txt=a.substring(start1,end1);
 if(txt.search(" ")>0)
 {
-final_text=txt.replace(" ","%20");
+final_text=txt.replace(" ","-");
 }
 
 else{
