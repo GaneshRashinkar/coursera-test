@@ -20,7 +20,7 @@ final_text=txt;
 a="https://ganeshrashinkar.github.io/coursera-test/wishyou/Dhantrayodashi1.html?";
 
 var c="!"
-window.open(a+d+final_text+c);
+window.open(a+final_text+c);
 /*document.getElementById("uname").innerHTML=final_text+"&nbspतर्फे";*/
 }
 
