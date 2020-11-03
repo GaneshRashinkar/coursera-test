@@ -34,9 +34,9 @@ var a=window.location.href;
 var start1=a.indexOf(d)+1;
 var end1=a.indexOf(k);
 var txt=a.substring(start1,end1);
-if(txt.search("%20")>0)
+if(txt.search("-")>0)
 {
-final_text=txt.replace("%20","&nbsp");
+final_text=txt.replace("-","&nbsp");
 }
 
 else{
@@ -46,12 +46,13 @@ final_text=txt;
 
 document.getElementById("uname").innerHTML=final_text+"&nbspतर्फे";
 }
+
 function whatsapp_dhan(){
 	var url=window.location.href;
 	var final_text;
-	if(url.search(" ")>0)
+	if(url.search("%20")>0)
 {
-final_text=url.replace(" ","%20");
+final_text=url.replace("%20","-");
 }
 else{
 	final_text=url;

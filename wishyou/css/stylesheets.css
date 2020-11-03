@@ -101,7 +101,14 @@ div #para{
 				color: #f5f598;
 			}
 		}
-
+		.hand-gif{
+			height:50px;
+			width: 50px;
+		}
+		.enter-name{
+		height: 50px;
+		width: 250px;
+		}
 @media(max-width: 750px){
 	.navbar-light .navbar-nav .nav-link{
 	font-size: 3vw;
