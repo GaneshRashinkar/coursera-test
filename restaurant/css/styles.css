@@ -246,7 +246,7 @@ h3.menu-item-title{
 		padding: 0;
 	}
 	}
-	@media(max-width: 575px){
+	@media(max-width: 575px) and (min-width: 435px){
 		#call-btn>a{
 			font-size: 1.5em;
 			display: block;
@@ -281,4 +281,59 @@ h3.menu-item-title{
 			text-align: center;
 		}
 		/* end of single catetory*/
+	}
+	@media(max-width: 434px){
+		#my-navbar{
+			margin-right: 0;
+		}
+		.navbar-brand{
+			font-size: .7em;
+		}
+		#call-btn>a{
+			font-size: 1.5em;
+			display: block;
+			margin: 15px 20px;
+			padding-top: 10px;
+			border: 2px solid #fff;
+			background: #f6b319;
+			color: #951c49;
+		}
+		.jumbotron{
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 5px solid #3f0c1f;
+		padding: 0;
+	}
+		#menu-tile , #specials-tile{
+			width: 300px;
+			margin: 0 auto 15px;
+		} 
+		.card-footer section{
+			text-align: center;
+		}
+		/*Single category page*/
+		.menu-item-photo{
+			margin-right: auto;
+		}
+		.menu-item-tile .menu-item-price{
+			text-align: center;
+		}
+		.menu-item-description{
+			text-align: center;
+		}
+		/* end of single catetory*/
+
+		/*menu categories*/
+
+			.col-xxs-12{
+				position: relative;
+  				width: 100%;
+  				padding-right: 15px;
+  				padding-left: 15px;
+  				-ms-flex: 0 0 100%;
+  				flex: 0 0 100%;
+  				max-width: 100%;
+			}
+		/*end of menu categories*/
 	}
